@@ -40,14 +40,13 @@ scp ./output/forecast.png benutzer@domain.de:/pfad/zum/verzeichnis/
 
 ## 🔗 Weitere Infos
 
-📝 Blogbeitrag:
-[Wetterdaten visualisieren mit XSLT & Apache FOP – Teil 1](https://draeger-it.blog/wetterdaten-visualisieren-mit-xslt-apache-fop-teil-1-png-erzeugung-am-pc/)
-[XSLT-Templates nutzen: Wiederverwendbare Bausteine für dein Wetter-Dashboard](https://draeger-it.blog/xslt-templates-nutzen-wiederverwendbare-bausteine-fuer-dein-wetter-dashboard/)
+📝 Blogbeitrag:  
+[Wetterdaten visualisieren mit XSLT & Apache FOP – Teil 1](https://draeger-it.blog/wetterdaten-visualisieren-mit-xslt-apache-fop-teil-1-png-erzeugung-am-pc/)  
+[XSLT-Templates nutzen: Wiederverwendbare Bausteine für dein Wetter-Dashboard](https://draeger-it.blog/xslt-templates-nutzen-wiederverwendbare-bausteine-fuer-dein-wetter-dashboard/)  
 
 💻 GitHub Repository:<br>
 [https://github.com/StefanDraeger/xml2weatherpng](https://github.com/StefanDraeger/xml2weatherpng)
 
-## 👤 Autor
-<br>
-**Stefan Draeger**<br>
+## 👤 Autor  
+**Stefan Draeger**  
 🌐 [https://draeger-it.blog](https://draeger-it.blog)
