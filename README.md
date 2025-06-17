@@ -6,6 +6,7 @@ xml2weatherpng/<br>
 ├── images/                 # Icons für Wetterlagen (umbenannt für XSLT-Zugriff)<br>
 ├── output/                 # Ausgabeordner für das generierte PNG-Bild<br>
 ├── scripts/                # Hilfsskripte für einzelne Teilschritte<br>
+├── templating/             # XSLT-Template mit ausgelagerten Blöcken<br>
 ├── meteomatics2fo.xsl      # XSLT-Template zur Umwandlung von XML in XSL-FO<br>
 ├── meteomatics\_fetch.sh    # Shell-Skript für alle Schritte: Download, Transformation, Upload<br>
 
@@ -39,13 +40,13 @@ scp ./output/forecast.png benutzer@domain.de:/pfad/zum/verzeichnis/
 
 ## 🔗 Weitere Infos
 
-📝 Blogbeitrag:
-[Wetterdaten visualisieren mit XSLT & Apache FOP – Teil 1](https://draeger-it.blog/wetterdaten-visualisieren-mit-xslt-apache-fop-teil-1-png-erzeugung-am-pc/)
+📝 Blogbeitrag:  
+[Wetterdaten visualisieren mit XSLT & Apache FOP – Teil 1](https://draeger-it.blog/wetterdaten-visualisieren-mit-xslt-apache-fop-teil-1-png-erzeugung-am-pc/)  
+[XSLT-Templates nutzen: Wiederverwendbare Bausteine für dein Wetter-Dashboard](https://draeger-it.blog/xslt-templates-nutzen-wiederverwendbare-bausteine-fuer-dein-wetter-dashboard/)  
 
-💻 GitHub Repository:
+💻 GitHub Repository:<br>
 [https://github.com/StefanDraeger/xml2weatherpng](https://github.com/StefanDraeger/xml2weatherpng)
 
-## 👤 Autor
-
-**Stefan Draeger**
+## 👤 Autor  
+**Stefan Draeger**  
 🌐 [https://draeger-it.blog](https://draeger-it.blog)
