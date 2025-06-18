@@ -50,7 +50,7 @@
 
                         <fo:table-cell>
                             <fo:block>
-                                <fo:external-graphic src="url('../images/{$icon}')"
+                                <fo:external-graphic src="url('../../images/{$icon}')"
                                                      content-width="30px"/>
                             </fo:block>
                         </fo:table-cell>
@@ -87,7 +87,7 @@
 
             <fo:block text-align="center" space-before="2pt" space-after="2pt">
                 <fo:external-graphic
-                        src="url('../images/{//parameter[@name='weather_symbol_1h:idx']/location/value[$index]}.png')"
+                        src="url('../../images/{//parameter[@name='weather_symbol_1h:idx']/location/value[$index]}.png')"
                         content-width="40px"/>
             </fo:block>
 
@@ -157,7 +157,7 @@
                                 <fo:table-cell number-rows-spanned="3" display-align="center">
                                     <fo:block text-align="center">
                                         <fo:external-graphic
-                                                src="url('../images/{concat(//parameter[@name='weather_symbol_1h:idx']/location/value[1], '.png')}')"
+                                                src="url('../../images/{concat(//parameter[@name='weather_symbol_1h:idx']/location/value[1], '.png')}')"
                                                 content-width="140px"/>
                                     </fo:block>
                                 </fo:table-cell>
