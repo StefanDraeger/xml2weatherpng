@@ -11,13 +11,6 @@ Mit dem Einsatz von `<xsl:template>` und Parametern lässt sich die XSL-Datei mo
 
 ![ePaper Wetteranzeige](https://github.com/StefanDraeger/xml2weatherpng/blob/main/templating/images/ePaper_Display_mit_aktuellen_Wetterdaten.png?raw=true)
 
-## Inhalte dieses Ordners
-
-- `forecastXML2fo.xsl` – Optimierte XSL-Datei mit Templates
-- `wetter.xml` – Beispielhafte XML-Daten (Meteomatics)
-- `output.png` – Beispielhafte Ausgabe (gerendertes PNG-Bild)
-- `../images/` – Icons für Temperatur, Luftdruck, Luftfeuchtigkeit, Wetterlage
-
 ## Weitere Links
 
 🔗 [Zum Hauptprojekt auf GitHub](https://github.com/StefanDraeger/xml2weatherpng)  
