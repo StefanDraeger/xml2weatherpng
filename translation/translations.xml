@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+    <string id="uhr">
+        <lang code="de">Uhr</lang>
+        <lang code="en">o'clock</lang>
+        <lang code="fr">montre</lang>
+    </string>
+    <string id="temperature">
+        <lang code="de">Temperatur</lang>
+        <lang code="en">Temperature</lang>
+        <lang code="fr">Température</lang>
+    </string>
+    <string id="humidity">
+        <lang code="de">Luftfeuchtigkeit</lang>
+        <lang code="en">Humidity</lang>
+        <lang code="fr">Humidité</lang>
+    </string>
+    <string id="pressure">
+        <lang code="de">Luftdruck</lang>
+        <lang code="en">Air pressure</lang>
+        <lang code="fr">Pression d'air</lang>
+    </string>
+    <string id="forecast">
+        <lang code="de">3-Tages-Vorschau</lang>
+        <lang code="en">3-day preview</lang>
+        <lang code="fr">Prévision à 3 jours</lang>
+    </string>
+</translations>
