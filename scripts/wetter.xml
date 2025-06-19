@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meteomatics-api-response version="3.0">
+    <user>stefandraegersoftware_draeger_stefan</user>
+    <dateGenerated>2025-06-13T10:19:27Z</dateGenerated>
+    <status>OK</status>
+    <data>
+        <parameter name="t_2m:C">
+            <location lat="52.1385884" lon="10.9670108">
+                <value date="2025-06-13T10:00:00Z">21.9</value>
+            </location>
+        </parameter>
+        <parameter name="relative_humidity_2m:p">
+            <location lat="52.1385884" lon="10.9670108">
+                <value date="2025-06-13T10:00:00Z">48.9</value>
+            </location>
+        </parameter>
+        <parameter name="msl_pressure:hPa">
+            <location lat="52.1385884" lon="10.9670108">
+                <value date="2025-06-13T10:00:00Z">1025</value>
+            </location>
+        </parameter>
+        <parameter name="weather_symbol_1h:idx">
+            <location lat="52.1385884" lon="10.9670108">
+                <value date="2025-06-13T10:00:00Z">1</value>
+            </location>
+        </parameter>
+    </data>
+</meteomatics-api-response>
