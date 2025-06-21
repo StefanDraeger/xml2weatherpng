@@ -11,8 +11,8 @@ log "START"
 
 URL="https://api.meteomatics.com"
 USERNAME="abc"
-PASSWORD="zxy"
-DATE=$(date -u +"%Y-%m-%dT%H:00:00Z")
+PASSWORD="xyz"
+DATE=$(date -u +"%Y-%m-%dT%H:00:00Z")P3D:PT24H
 PARAMS="t_2m:C,relative_humidity_2m:p,msl_pressure:hPa,weather_symbol_1h:idx"
 LAT="52.13858844280108"
 LON="10.967010751816423"
@@ -24,7 +24,7 @@ else
     exit 1
 fi
 
-if ./fop/fop -xml wetter.xml -xsl meteomatics2fo.xsl -png output/forecast_en.png; then
+if ./fop/fop -xml wetter.xml -xsl forecastXML2fo.xsl -param lang de -png output/forecast.png; then
     log "Transformieren in Datei output/forecast.png erfolgreich"
 else
     log "Fehler beim Transformieren der Datei"
